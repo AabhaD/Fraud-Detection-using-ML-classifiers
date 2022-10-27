@@ -1,6 +1,4 @@
-# Fraud-Detection
-
-# Objective - 
+# Fraud-Detection - 
 The challenge is to develop a machine learning model to predict suspected elder fraud in the digital payments space.
 
 # Executive Summary
