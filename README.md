@@ -6,22 +6,12 @@ Banks are required to report suspected vulnerable (elder and dependent adult) fi
 
 Banks need better methods to help protect elder and vulnerable adults against fraud in the digital payments landscape. Predictive modeling may also be applied in some form to alert consumers and bankers in advance of a fraud attempt and potentially pre-empt certain transactions and monetary losses. As the older adult segment continues to adopt digital technology, including digital payments, banks need better ways to predict and analyze transaction data to detect high risk payment patterns or transaction attributes that signal high risk for fraud, especially for older and vulnerable adult customers, which could be targeted by scammers.
 
-# Data Description -
-This data was provided by Wells Fargo Campus Analytics Challenge conducted by mindsumo
-https://www.mindsumo.com/contests/campus-analytics-challenge-2021 
+# Data and Packages/skills used -
+- Data : [This data was provided by Wells Fargo Campus Analytics Challenge conducted by mindsumo](https://www.mindsumo.com/contests/campus-analytics-challenge-2021)
+- Programming Language : Python 
+- Packages : pandas, numpy, matplotlib, seaborn, sklearn
+- ML models used : KNN Classifier, Logistic Regression Classifier, SVM, Decision Tree, Random Forest
 
-# Skills used -
-- Programming Language - Python (sklearn, pandas, numpy)
-- Data Science Skills - Preprocessing, Handling missing values, EDA, KNN Classifier, Logistic Regression Classifier, SVM, Decision Tree, Random Forest
--
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
-import sklearn
-from sklearn.metrics import confusion_matrix,plot_confusion_matrix
-from pathlib import Path
-
-#Conclusion :
-We get maximun roc_auc_score: 0.9694 by using Decision Tree Classifier with 'max_depth': 5, 'min_samples_leaf': 90, 'min_samples_split': 250. Also from Auc_roc curves we observe that the decision tree curve is close to top left as comparared to other models. This also proves that area under the curve, AUC is higher for the Decision Tree Classifier. Hence this is the best model to predict suspected elder fraud in the digital payments space.
+# Conclusion :
+We get * maximun roc_auc_score: 0.9694 by using Decision Tree Classifier * with 'max_depth': 5, 'min_samples_leaf': 90, 'min_samples_split': 250. Also from Auc_roc curves we observe that the decision tree curve is close to top left as comparared to other models. This also proves that area under the curve, AUC is higher for the Decision Tree Classifier. Hence this is the best model to predict suspected elder fraud in the digital payments space.
 
