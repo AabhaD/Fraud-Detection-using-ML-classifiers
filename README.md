@@ -13,12 +13,14 @@ https://www.mindsumo.com/contests/campus-analytics-challenge-2021
 # Skills used -
 - Programming Language - Python (sklearn, pandas, numpy)
 - Data Science Skills - Preprocessing, Handling missing values, EDA, KNN Classifier, Logistic Regression Classifier, SVM, Decision Tree, Random Forest
+-
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 import sklearn
 from sklearn.metrics import confusion_matrix,plot_confusion_matrix
+from pathlib import Path
 
 #Conclusion :
 We get maximun roc_auc_score: 0.9694 by using Decision Tree Classifier with 'max_depth': 5, 'min_samples_leaf': 90, 'min_samples_split': 250. Also from Auc_roc curves we observe that the decision tree curve is close to top left as comparared to other models. This also proves that area under the curve, AUC is higher for the Decision Tree Classifier. Hence this is the best model to predict suspected elder fraud in the digital payments space.
