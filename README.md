@@ -13,12 +13,15 @@ Missing values were imputed and data types were formatted to make the data usabl
 
 ## EDA
 Count for Fraud and Non-Fraud cases
+
 ![](https://github.com/AabhaD/Fraud-Detection/blob/main/image/nonfraudandfraud.png)
 
 Types of devices used to initiate fraudulent transaction
+
 ![](https://github.com/AabhaD/Fraud-Detection/blob/main/image/typeofdevice.png)
 
 Statewise fraudulent transaction distribution
+
 ![](https://github.com/AabhaD/Fraud-Detection/blob/main/image/State%20wise%20fraud%20and%20nonfraud%20count.png)
 
 ## Model Building
